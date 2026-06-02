@@ -4,9 +4,11 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: ZitaoTech
       url-base: https://github.com/ZitaoTech
+    - name: TheCherryTomato
+      url-base: https://github.com/TheCherryTomato
   projects:
     - name: zmk
-      remote: ZitaoTech
+      remote: TheCherryTomato
       revision: bbkeyboard_tp
       import: app/west.yml
   self:
